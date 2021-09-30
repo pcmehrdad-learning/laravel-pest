@@ -11,3 +11,8 @@ php artisan pest:install
 
 composer require --dev pestphp/pest-plugin-parallel
 
+
+
+[]- write tutorial 
+
+[]- config for phpstorm 
