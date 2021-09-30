@@ -1,5 +1,6 @@
 <?php
 
+    use Illuminate\Foundation\Testing\RefreshDatabase;
     use Illuminate\Foundation\Testing\TestCase;
     use Tests\CreatesApplication;
 
@@ -17,7 +18,11 @@
 // uses(Tests\TestCase::class)->in('Feature');
 
     // changes for pes
-uses(TestCase::class , CreatesApplication::class)->in('Feature','Unit');
+uses(
+    TestCase::class ,
+    CreatesApplication::class ,
+    RefreshDatabase::class
+)->in('Feature','Unit');
 
 /*
 |--------------------------------------------------------------------------
