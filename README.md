@@ -12,6 +12,9 @@ php artisan pest:install
 composer require --dev pestphp/pest-plugin-parallel
 
 
+sudo apt-get install php-sqlite3
+
+
 
 []- write tutorial 
 
